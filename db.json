@@ -2,33 +2,156 @@
   "posts": [
     {
       "id": 1,
-      "title": "Post 1",
-      "description": "this is description 1"
+      "userId": 1,
+      "title": "First Post",
+      "body": "This is the body of the first post."
     },
     {
       "id": 2,
-      "title": "Post 2",
-      "description": "this is description 2"
+      "userId": 2,
+      "title": "Awesome Day",
+      "body": "Had an awesome day today!"
     },
     {
       "id": 3,
-      "title": "Post 3",
-      "description": "this is description 3"
+      "userId": 3,
+      "title": "Programming Tips",
+      "body": "Here are some programming tips for beginners."
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "Travel Adventure",
+      "body": "Just returned from a fantastic travel adventure."
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "Random Thoughts",
+      "body": "Thinking about random things today."
     }
   ],
   "comments": [
     {
       "id": 1,
-      "body": "comment 1",
-      "postId": 1
+      "postId": 1,
+      "userId": 2,
+      "text": "Great post!"
     },
     {
       "id": 2,
-      "body": "comment 2",
-      "postId": 1
+      "postId": 2,
+      "userId": 3,
+      "text": "Sounds amazing!"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "userId": 4,
+      "text": "Thanks for the tips!"
+    },
+    {
+      "id": 4,
+      "postId": 4,
+      "userId": 5,
+      "text": "Tell me more about your adventure!"
+    },
+    {
+      "id": 5,
+      "postId": 5,
+      "userId": 1,
+      "text": "Random thoughts are the best!"
     }
   ],
-  "profile": {
-    "name": "Profile 1"
-  }
+  "albums": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Vacation 2022"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Family Gathering"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Tech Conference"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "Nature Walk"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "Celebration Party"
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "albumId": 1,
+      "title": "Beach Sunset",
+      "url": "https://example.com/beach-sunset.jpg"
+    },
+    {
+      "id": 2,
+      "albumId": 2,
+      "title": "Family Picnic",
+      "url": "https://example.com/family-picnic.jpg"
+    },
+    {
+      "id": 3,
+      "albumId": 3,
+      "title": "Tech Session",
+      "url": "https://example.com/tech-session.jpg"
+    },
+    {
+      "id": 4,
+      "albumId": 4,
+      "title": "Scenic View",
+      "url": "https://example.com/scenic-view.jpg"
+    },
+    {
+      "id": 5,
+      "albumId": 5,
+      "title": "Celebration Cake",
+      "url": "https://example.com/celebration-cake.jpg"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Complete Project A",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Read Book B",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Attend Meeting C",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "Exercise for 30 Minutes",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "Learn New Skill D",
+      "completed": false
+    }
+  ]
 }
